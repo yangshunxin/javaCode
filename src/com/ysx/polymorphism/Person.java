@@ -7,22 +7,25 @@ package com.ysx.polymorphism;
  * @author yangs
  *
  */
-public class Pet {
+public class Person {
 	private String name;
+	Pet pet;
 
 	/**
 	 * 
 	 */
-	public void enjoy() {
-		System.out.println(this.name + " 很高兴，，，，，");
-	}
-
-	public Pet() {
+	public Person() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Pet(String name) {
-		this.name = name;
+	public Person(String name, Pet p) {
+		setName(name);
+		this.pet = p;
+	}
+
+	public void feed() {
+		System.out.println(name + " 正在给" + pet.getName() + "喂实物，，，");
+		this.pet.enjoy();
 	}
 
 	/**
