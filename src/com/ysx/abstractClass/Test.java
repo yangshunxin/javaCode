@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ysx.visualClass;
+package com.ysx.abstractClass;
 
 /**
  * @author yangs
