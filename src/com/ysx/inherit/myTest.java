@@ -27,7 +27,7 @@ public class myTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Son s = new Son("ysx");
-
+		s.work();// 子类实例 访问父类的静态方法
 	}
 
 }

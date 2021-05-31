@@ -21,4 +21,8 @@ public class Father {
 		System.out.println("this is father constructor:" + name);
 	}
 
+	public static void work() {
+		System.out.println("father work!!!");
+	}
+
 }
